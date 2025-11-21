@@ -1,10 +1,10 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     0       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        ""      # Project title
-  author:       ""      # Your name
+  wokwi_id:     447811843763790849       # Set this to the ID of your Wokwi project (the number from the project's URL)
+  title:        "Intro To ECSE 4 Bit Counter"      # Project title
+  author:       "Charlie Fowle"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  description:  "Uses a clock to add up to 4 bits."      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -26,10 +26,10 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
+  uo[0]: "Q0"
+  uo[1]: "Q1"
+  uo[2]: "Q2"
+  uo[3]: "Q3"
   uo[4]: ""
   uo[5]: ""
   uo[6]: ""
